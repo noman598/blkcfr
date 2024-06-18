@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "flask-app",
+      "script": "index.py",
+      "watch": true,
+      "env": {
+        "NODE_ENV": "production",
+        "FLASK_APP": "index.py",
+        "FLASK_ENV": "production",
+        "PORT": 5000
+      }
+    }
+  ]
+}
